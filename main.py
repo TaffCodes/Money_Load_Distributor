@@ -4,7 +4,7 @@ while original_load < 1 or original_load > 250000:
     original_load = int(input("Invalid input. Please enter a value for original_load between 1 and 250000: "))
 
 # Enter amount to be disbursed to loader
-loader_disbursement = int(original_load * 0.95) # 95% of original_load
+loader_disbursement = int(original_load * 0.70) # 70% of original_load
 loader_disbursement = int(loader_disbursement)  # Convert loader_disbursement to zero decimal places integer
 
 
